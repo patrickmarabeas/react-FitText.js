@@ -1,7 +1,7 @@
 /**
  * @jsx React.DOM
  *
- * react-FitText.js v0.0.1
+ * react-FitText.js v0.0.2
  * https://github.com/patrickmarabeas/react-FitText.js
  *
  * Original jQuery project: https://github.com/davatron5000/FitText.js
@@ -18,7 +18,7 @@
 
 var FitText = React.createClass({displayName: 'FitText',
   render: function() {
-    var text = this.props.text || 'error: specify text';
+    var text = this.props.text;
     return React.DOM.span(null, text);
   },
   componentDidMount: function() {
