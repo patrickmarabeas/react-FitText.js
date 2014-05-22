@@ -1,0 +1,21 @@
+{
+  "name": "reactFitText",
+  "version": "0.0.1",
+  "main": [
+    "src/react-FitText.js",
+    "build/react-FitText.js"
+  ],
+  "keywords": [
+    "react",
+    "javascript",
+    "typography"
+  ],
+  "ignore": [
+    "src/app.js",
+    "build/app.js",
+    "build/react.js",
+    "styles",
+    "test",
+    "index.html"
+  ]
+}
